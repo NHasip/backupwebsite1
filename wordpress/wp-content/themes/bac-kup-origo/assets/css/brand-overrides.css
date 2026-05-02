@@ -1,0 +1,1124 @@
+:root {
+  --green: #1e3d2f;
+  --green-mid: #2d5a3d;
+  --teal: #3d8c7a;
+  --teal-lt: #5aab98;
+  --mint: #a8d4cc;
+  --mint-pale: #e8f4f1;
+  --cream: #f7f4ef;
+  --white: #ffffff;
+  --ink: #1a2e24;
+  --ink-mid: #3a5a4a;
+  --ink-lt: #6a8a7a;
+  --danger: #c47a6a;
+  --gold: #c8a84b;
+}
+
+.nav-logo-img,
+.footer-logo-img {
+  max-height: 40px;
+  width: auto;
+}
+
+.footer-logo-img {
+  filter: none;
+  opacity: 1;
+}
+
+img[alt="Origo"],
+img[src*="logo.png"] {
+  content: url('../img/logo-origo.png');
+}
+
+body.admin-bar nav {
+  top: 32px;
+}
+
+body.elementor-page {
+  margin: 0;
+}
+
+.elementor {
+  width: 100%;
+}
+
+.elementor-section.elementor-section-full_width > .elementor-container {
+  max-width: none;
+  width: 100%;
+}
+
+.elementor-section.bk-top-hero-section,
+.elementor-section.bk-top-hero-section > .elementor-container,
+.elementor-section.bk-top-hero-section > .elementor-container > .elementor-column,
+.elementor-section.bk-top-hero-section .elementor-widget-wrap {
+  height: calc(100vh - var(--nav-h)) !important;
+  min-height: calc(100vh - var(--nav-h)) !important;
+}
+
+.elementor-section.bk-top-hero-section {
+  overflow: hidden;
+}
+
+.elementor-section.elementor-top-section,
+.elementor-column-gap-no > .elementor-column > .elementor-element-populated {
+  padding: 0 !important;
+}
+
+.elementor .bk-origo-node.e-con {
+  --padding-top: 0;
+  --padding-right: 0;
+  --padding-bottom: 0;
+  --padding-left: 0;
+  --gap: 0;
+  margin: 0;
+  max-width: none;
+  min-width: 0;
+}
+
+.elementor .bk-origo-widget > .elementor-widget-container {
+  margin: 0;
+  padding: 0;
+}
+
+.elementor .banner.e-con,
+.elementor .hero.e-con,
+.elementor .services.e-con,
+.elementor .voorwie.e-con,
+.elementor .why.e-con,
+.elementor .proof.e-con,
+.elementor .cta-band.e-con {
+  width: 100%;
+  max-width: none;
+}
+
+.elementor .banner.e-con {
+  --display: flex;
+  --flex-direction: row;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.elementor .services.e-con,
+.elementor .voorwie.e-con,
+.elementor .why.e-con,
+.elementor .proof.e-con,
+.elementor .cta-band.e-con,
+.elementor .wrap.e-con,
+.elementor .svc-card.e-con,
+.elementor .svc-body.e-con,
+.elementor .vw-img-wrap.e-con,
+.elementor .vw-boxes.e-con,
+.elementor .vw-box.e-con,
+.elementor .why-img.e-con,
+.elementor .proof-item.e-con,
+.elementor .hero-img.e-con {
+  --display: block;
+  display: block !important;
+}
+
+.elementor .hero.e-con {
+  --display: flex;
+  --flex-direction: row;
+  --min-height: calc(100vh - var(--nav-h));
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  height: calc(100vh - var(--nav-h)) !important;
+  min-height: calc(100vh - var(--nav-h)) !important;
+}
+
+.elementor .hero-grid.e-con,
+.elementor .wrap.e-con {
+  max-width: var(--max-w) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.elementor .hero-grid.e-con,
+.elementor .svc-grid.e-con,
+.elementor .vw-grid.e-con,
+.elementor .why-grid.e-con,
+.elementor .stat-grid.e-con,
+.elementor .proof-grid.e-con {
+  --display: grid;
+  display: grid !important;
+}
+
+.elementor .hero-btns.e-con,
+.elementor .why-btns.e-con,
+.elementor .cta-band-btns.e-con,
+.elementor .hero-float.e-con,
+.elementor .vw-img-tag.e-con {
+  --display: flex;
+  --flex-direction: row;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.elementor .hero-pill.e-con,
+.elementor .eyebrow.e-con,
+.elementor .proof-item.e-con {
+  --display: flex;
+  --flex-direction: row;
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.elementor .hero.e-con,
+.elementor .services.e-con,
+.elementor .voorwie.e-con,
+.elementor .why.e-con,
+.elementor .proof.e-con,
+.elementor .cta-band.e-con,
+.elementor .wrap.e-con,
+.elementor .hero-grid.e-con,
+.elementor .svc-grid.e-con,
+.elementor .vw-grid.e-con,
+.elementor .why-grid.e-con,
+.elementor .stat-grid.e-con,
+.elementor .proof-grid.e-con,
+.elementor .svc-card.e-con,
+.elementor .svc-body.e-con,
+.elementor .vw-boxes.e-con,
+.elementor .vw-box.e-con,
+.elementor .proof-item.e-con {
+  width: 100%;
+}
+
+.elementor .banner > .elementor-widget,
+.elementor .hero-pill > .elementor-widget,
+.elementor .hero-btns > .elementor-widget-button,
+.elementor .why-btns > .elementor-widget-button,
+.elementor .cta-band-btns > .elementor-widget-button,
+.elementor .svc-body > .svc-link,
+.elementor .hero-float > .elementor-element,
+.elementor .vw-img-tag > .elementor-element,
+.elementor .proof-item > .elementor-element:first-child {
+  width: auto;
+}
+
+.elementor .banner > .elementor-widget,
+.elementor .hero-pill > .elementor-widget,
+.elementor .hero-float > .elementor-element,
+.elementor .vw-img-tag > .elementor-element,
+.elementor .proof-item > .elementor-element:first-child {
+  --container-widget-width: auto;
+  --container-widget-flex-grow: 0;
+  width: auto !important;
+  flex: 0 0 auto !important;
+}
+
+.elementor .hero-pill.e-con,
+.elementor .hero-float.e-con,
+.elementor .hf-icon.e-con,
+.elementor .hf-num.e-con,
+.elementor .hf-lbl.e-con,
+.elementor .eyebrow.e-con,
+.elementor .svc-icon.e-con,
+.elementor .svc-title.e-con,
+.elementor .vw-img-tag.e-con,
+.elementor .vw-img-tag-text.e-con,
+.elementor .vw-box-lbl.e-con,
+.elementor .stat-num.e-con,
+.elementor .stat-lbl.e-con,
+.elementor .proof-title.e-con {
+  --width: auto;
+  --flex-grow: 0;
+  --flex-shrink: 0;
+  width: auto !important;
+  flex: 0 0 auto !important;
+  max-width: fit-content;
+}
+
+.elementor .hero-pill.e-con {
+  --display: inline-flex;
+  display: inline-flex !important;
+  max-width: fit-content !important;
+}
+
+.elementor .hero-float.e-con {
+  --display: flex;
+  display: flex !important;
+  width: fit-content !important;
+  max-width: fit-content !important;
+}
+
+.elementor .hf-icon.e-con {
+  display: flex;
+  width: 34px;
+  height: 34px;
+}
+
+.elementor .banner p {
+  margin: 0;
+}
+
+.elementor .hero-pill p,
+.elementor .eyebrow p,
+.elementor .svc-title p,
+.elementor .stat-num p,
+.elementor .stat-lbl p,
+.elementor .proof-title p,
+.elementor .hf-num p,
+.elementor .hf-lbl p,
+.elementor .vw-box-lbl p {
+  margin: 0;
+}
+
+.elementor .elementor-widget-text-editor p:last-child,
+.elementor .elementor-widget-heading .elementor-heading-title {
+  margin-bottom: 0;
+}
+
+.elementor .hero-circles.elementor-widget,
+.elementor .hero-circles > .elementor-widget-container {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.elementor .hero-circles svg {
+  width: 100%;
+  height: 100%;
+}
+
+.elementor .elementor-widget-image img {
+  width: 100%;
+}
+
+.elementor .hero-img .elementor-widget-image,
+.elementor .hero-img .elementor-widget-container,
+.elementor .hero-img img,
+.elementor .svc-img .elementor-widget-image,
+.elementor .svc-img .elementor-widget-container,
+.elementor .svc-img img,
+.elementor .vw-img-wrap > .elementor-widget-image,
+.elementor .vw-img-wrap > .elementor-widget-image > .elementor-widget-container,
+.elementor .vw-img-wrap > .elementor-widget-image img,
+.elementor .why-img .elementor-widget-image,
+.elementor .why-img .elementor-widget-container,
+.elementor .why-img img {
+  height: 100%;
+}
+
+.elementor .hero-img img,
+.elementor .svc-img img,
+.elementor .vw-img-wrap > .elementor-widget-image img,
+.elementor .why-img img {
+  object-fit: cover;
+}
+
+.elementor .btn.elementor-widget-button .elementor-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  font: inherit;
+  line-height: inherit;
+}
+
+.elementor .svc-link.elementor-widget-button .elementor-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  color: inherit;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  font: inherit;
+  line-height: inherit;
+}
+
+.elementor .btn .elementor-button-content-wrapper,
+.elementor .svc-link .elementor-button-content-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.elementor .btn.elementor-widget-button,
+.elementor .svc-link.elementor-widget-button {
+  display: inline-flex;
+  width: auto;
+}
+
+.elementor .btn.elementor-widget-button {
+  padding: 0;
+  min-height: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.elementor .btn.elementor-widget-button .elementor-button {
+  min-height: 48px;
+  padding: .78rem 1.65rem;
+  border-radius: 100px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.elementor .btn-teal.elementor-widget-button .elementor-button {
+  background: var(--teal);
+  color: #fff;
+}
+
+.elementor .btn-dark.elementor-widget-button .elementor-button {
+  background: var(--green);
+  color: #fff;
+}
+
+.elementor .btn-outline.elementor-widget-button .elementor-button {
+  background: transparent;
+  color: var(--mint);
+  border: 1.5px solid rgba(168,212,204,.4);
+}
+
+.elementor .btn-light.elementor-widget-button .elementor-button {
+  background: var(--mint-pale);
+  color: var(--green);
+  border: 1.5px solid rgba(168,212,204,.45);
+}
+
+@media (max-width: 782px) {
+  body.admin-bar nav {
+    top: 46px;
+  }
+}
+
+@media (max-width: 768px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  nav,
+  .elementor,
+  .elementor-section.elementor-section-stretched,
+  .elementor-section.elementor-section-full_width,
+  .elementor-section.elementor-section-full_width > .elementor-container,
+  .elementor-column,
+  .elementor-widget-wrap,
+  .elementor .banner.e-con,
+  .elementor .hero.e-con,
+  .elementor .services.e-con,
+  .elementor .voorwie.e-con,
+  .elementor .why.e-con,
+  .elementor .proof.e-con,
+  .elementor .cta-band.e-con {
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+  }
+
+  .nav-inner {
+    min-width: 0;
+  }
+
+  .elementor .hero .elementor-element,
+  .elementor .hero .elementor-widget-container,
+  .elementor .hero p,
+  .elementor .hero li {
+    max-width: 100%;
+  }
+
+  .elementor .hero-grid.e-con,
+  .elementor .vw-grid.e-con,
+  .elementor .why-grid.e-con,
+  .elementor .svc-grid.e-con,
+  .elementor .proof-grid.e-con {
+    grid-template-columns: 1fr !important;
+  }
+
+  .elementor .hero-visual.e-con {
+    display: none !important;
+  }
+
+  .elementor .banner.e-con {
+    padding-inline: 1.25rem;
+  }
+
+  .elementor .hero.e-con {
+    --min-height: auto;
+    height: auto !important;
+    min-height: auto !important;
+    padding-inline: 1.25rem;
+  }
+
+  .elementor-section.bk-top-hero-section,
+  .elementor-section.bk-top-hero-section > .elementor-container,
+  .elementor-section.bk-top-hero-section > .elementor-container > .elementor-column,
+  .elementor-section.bk-top-hero-section .elementor-widget-wrap {
+    height: auto !important;
+    min-height: 0 !important;
+  }
+
+  .elementor .hero h1 {
+    overflow-wrap: anywhere;
+  }
+
+  .elementor .hero-checks,
+  .elementor .hero-checks li,
+  .elementor .hero-sub {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 480px) {
+  .elementor .hero-btns.e-con,
+  .elementor .why-btns.e-con,
+  .elementor .cta-band-btns.e-con {
+    --flex-direction: column;
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+
+  .elementor .hero-btns > .elementor-widget-button,
+  .elementor .why-btns > .elementor-widget-button,
+  .elementor .cta-band-btns > .elementor-widget-button,
+  .elementor .hero-btns .elementor-button,
+  .elementor .why-btns .elementor-button,
+  .elementor .cta-band-btns .elementor-button {
+    width: 100% !important;
+  }
+}
+
+/* Keep all animated blocks editable/visible inside Elementor editor. */
+body.elementor-editor-active .reveal,
+body.elementor-editor-preview .reveal,
+.elementor-editor-active .reveal {
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+/* Editor mode: prevent fixed theme chrome from blocking section handles. */
+body.elementor-editor-active nav {
+  position: static !important;
+  inset: auto !important;
+}
+
+body.elementor-editor-active {
+  padding-top: 0 !important;
+}
+
+/* Abonnementen page: compact proportions to match reference layout. */
+body.page-id-5 .page-hero {
+  padding: 44px var(--px) 36px;
+}
+
+body.page-id-5 .page-hero h1 {
+  font-size: clamp(2rem, 3.2vw, 2.8rem);
+}
+
+body.page-id-5 .page-hero-lead {
+  max-width: 620px;
+}
+
+body.page-id-5 .plans,
+body.page-id-5 .examples {
+  padding: 52px var(--px);
+}
+
+body.page-id-5 .plans .wrap,
+body.page-id-5 .examples .wrap {
+  max-width: 1080px;
+}
+
+body.page-id-5 .plans-grid {
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+body.page-id-5 .plan {
+  border-radius: 14px;
+  padding: 1.5rem;
+}
+
+body.page-id-5 .plan-name {
+  font-size: 1.15rem;
+}
+
+/* Plus/procesregie badge: class exists on Elementor widget wrapper and <p>.
+   Reset wrapper, style only the <p> so it stays compact (not full width). */
+body.page-id-5 .elementor-widget.plan-eye,
+body.page-id-5 .plan-eye.bk-origo-widget {
+  width: auto !important;
+  max-width: fit-content !important;
+  min-width: 0 !important;
+  background: transparent !important;
+  border: 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
+  flex: 0 0 auto !important;
+  flex-grow: 0 !important;
+  flex-shrink: 0 !important;
+  align-self: flex-start !important;
+  --container-widget-width: auto !important;
+  --container-widget-flex-grow: 0 !important;
+  --container-widget-align-self: flex-start !important;
+}
+
+body.page-id-5 .plan-eye .elementor-widget-container {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  max-width: fit-content !important;
+  background: transparent !important;
+  border: 0 !important;
+  display: inline-block !important;
+}
+
+body.page-id-5 p.plan-eye {
+  display: inline-flex !important;
+  align-items: center;
+  width: auto !important;
+  max-width: fit-content;
+  padding: .28rem .75rem;
+  border-radius: 999px;
+  border: 1px solid rgba(61,140,122,.25);
+  background: #d9ece8;
+  color: #2b7d70 !important;
+  margin: 0 0 .55rem 0;
+  white-space: nowrap;
+}
+
+body.page-id-5 .plan-price-n {
+  font-size: 2rem;
+}
+
+body.page-id-5 .plan-items li {
+  font-size: .76rem;
+}
+
+body.page-id-5 .plan-btn {
+  min-height: 42px;
+  padding: .55rem 1rem;
+  line-height: 1.4;
+  font-size: .76rem;
+}
+
+/* Elementor button widget variant of plan-btn:
+   keep a single visible button layer so Elementor Style controls work. */
+body.page-id-5 .plan-btn.elementor-widget-button {
+  display: block;
+  width: 100%;
+  min-height: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+body.page-id-5 .plan-btn.elementor-widget-button .elementor-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 42px;
+  border-radius: 999px;
+  padding: .55rem 1rem;
+  line-height: 1.4;
+  font-size: .76rem;
+}
+
+body.page-id-5 .custom-band {
+  border-radius: 14px;
+  padding: 1.2rem 1.5rem;
+  margin-top: 1.15rem;
+  border: 1.5px dashed rgba(168,212,204,.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+body.page-id-5 .custom-band-text strong {
+  font-size: .96rem;
+  line-height: 1.35;
+}
+
+body.page-id-5 .custom-band-text p {
+  font-size: .78rem;
+  line-height: 1.55;
+  margin: .15rem 0 0;
+}
+
+body.page-id-5 .custom-band .btn-dark.elementor-widget-button,
+body.page-id-5 .custom-band .btn-dark {
+  width: auto !important;
+  min-width: 180px;
+  margin-left: auto;
+}
+
+body.page-id-5 .custom-band .btn-dark.elementor-widget-button .elementor-button,
+body.page-id-5 .custom-band .btn-dark {
+  min-height: 46px;
+  padding: .65rem 1.3rem;
+  border-radius: 999px;
+}
+
+@media (max-width: 767px) {
+  body.page-id-5 .custom-band {
+    padding: 1rem 1rem;
+  }
+  body.page-id-5 .custom-band .btn-dark.elementor-widget-button,
+  body.page-id-5 .custom-band .btn-dark {
+    width: 100% !important;
+    min-width: 0;
+    margin-left: 0;
+  }
+}
+
+body.page-id-5 .examples .h2 {
+  font-size: clamp(1.9rem, 3vw, 2.45rem);
+}
+
+body.page-id-5 .ex-wrap {
+  border-radius: 12px;
+  padding: 1.15rem;
+  margin-top: 1rem;
+}
+
+body.page-id-5 .ex-table td {
+  font-size: .78rem;
+  padding: .55rem 0;
+}
+
+body.page-id-5 .reken {
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  margin-top: 1rem;
+}
+
+body.page-id-5 .btn-row {
+  margin-top: 1rem;
+}
+
+body.page-id-5 .btn-row .btn {
+  min-height: 38px;
+  padding: .6rem 1.15rem;
+  font-size: .76rem;
+}
+
+/* Arts-route page: strict spacing/alignment while keeping Elementor widgets editable */
+body.page-id-7 .page-hero-inner,
+body.page-id-7 .notice-wrap.e-con,
+body.page-id-7 .routes-sec .wrap.e-con,
+body.page-id-7 .bac-sec .wrap.e-con {
+  width: 100% !important;
+  max-width: var(--max-w) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+body.page-id-7 .page-hero-lead {
+  max-width: 620px;
+}
+
+body.page-id-7 .notice-wrap.e-con {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: .45rem !important;
+}
+
+body.page-id-7 .notice-item.e-con {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 10px !important;
+}
+
+body.page-id-7 .notice-item .elementor-widget-html {
+  width: auto !important;
+  flex: 0 0 auto !important;
+  line-height: 1;
+}
+
+body.page-id-7 .notice-item .elementor-widget-text-editor {
+  width: auto !important;
+  flex: 1 1 auto !important;
+}
+
+body.page-id-7 .notice-item p {
+  margin: 0;
+}
+
+body.page-id-7 .h2 .elementor-heading-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.65rem, 3vw, 2.35rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+body.page-id-7 .routes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+body.page-id-7 .route {
+  border-radius: 20px;
+  padding: 2.1rem;
+}
+
+body.page-id-7 .route-eye,
+body.page-id-7 p.route-eye {
+  display: inline-block !important;
+  width: auto !important;
+  max-width: fit-content !important;
+  margin: 0 0 .3rem 0;
+}
+
+body.page-id-7 .btn-row {
+  display: flex;
+  gap: .8rem;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+
+body.page-id-7 .btn-row .btn,
+body.page-id-7 .btn-row .elementor-widget-button {
+  width: auto !important;
+}
+
+body.page-id-7 .bac-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+@media (max-width: 768px) {
+  body.page-id-7 .routes-grid,
+  body.page-id-7 .bac-grid {
+    grid-template-columns: 1fr;
+  }
+  body.page-id-7 .btn-row {
+    flex-direction: column;
+  }
+}
+
+/* Tarieven page: strict alignment/margins, Elementor-editable */
+body.page-id-8 .page-hero-inner,
+body.page-id-8 .rates-sec .wrap.e-con,
+body.page-id-8 .rules-sec .wrap.e-con {
+  width: 100% !important;
+  max-width: var(--max-w) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+body.page-id-8 .page-hero-lead {
+  max-width: 760px;
+}
+
+body.page-id-8 .rates-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 3.5rem;
+  align-items: start;
+  margin-top: 3rem;
+}
+
+body.page-id-8 .rate-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+body.page-id-8 .intro-band {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+body.page-id-8 .intro-band .btn,
+body.page-id-8 .intro-band .elementor-widget-button {
+  width: auto !important;
+  flex: 0 0 auto !important;
+}
+
+body.page-id-8 .rules-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.3rem;
+  margin-top: 2.5rem;
+}
+
+body.page-id-8 .rule {
+  border-radius: 15px;
+  padding: 1.7rem;
+}
+
+@media (max-width: 900px) {
+  body.page-id-8 .rates-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  body.page-id-8 .rules-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  body.page-id-8 .rules-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Over ons page: strict alignment/margins, Elementor-editable */
+body.page-id-9 .page-hero-inner,
+body.page-id-9 .mission .wrap.e-con,
+body.page-id-9 .stats .wrap.e-con,
+body.page-id-9 .team-sec .wrap.e-con,
+body.page-id-9 .bac-sec2 .wrap.e-con {
+  width: 100% !important;
+  max-width: var(--max-w) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+body.page-id-9 .page-hero-lead {
+  max-width: 760px;
+}
+
+body.page-id-9 .mission-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+body.page-id-9 .mission-img {
+  border-radius: 22px;
+  overflow: hidden;
+}
+
+body.page-id-9 .mv-items {
+  display: flex;
+  flex-direction: column;
+  gap: .85rem;
+  margin-top: 2rem;
+}
+
+body.page-id-9 .mv-item {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+  gap: 13px !important;
+}
+
+body.page-id-9 .stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.1rem;
+  margin-top: 2.5rem;
+}
+
+body.page-id-9 .team-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.1rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 1024px) {
+  body.page-id-9 .team-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  body.page-id-9 .mission-grid {
+    grid-template-columns: 1fr;
+  }
+  body.page-id-9 .stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  body.page-id-9 .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  body.page-id-9 .team-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* FAQ page: strict alignment/margins, Elementor-editable */
+body.page-id-10 .page-hero-inner,
+body.page-id-10 .faq-sec .wrap.e-con,
+body.page-id-10 .faq-cta .wrap.e-con {
+  width: 100% !important;
+  max-width: var(--max-w) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+body.page-id-10 .page-hero-lead {
+  max-width: 760px;
+}
+
+body.page-id-10 .faq-list {
+  max-width: 740px;
+  margin: 3rem auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body.page-id-10 .faq-item {
+  border-bottom: 1px solid rgba(168,212,204,.22);
+}
+
+body.page-id-10 .faq-q.elementor-widget-html,
+body.page-id-10 .faq-q .elementor-widget-container {
+  width: 100%;
+}
+
+body.page-id-10 .faq-q .faq-q {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+}
+
+body.page-id-10 .faq-a {
+  padding-bottom: 1.35rem;
+}
+
+body.page-id-10 .faq-cta .btn-row {
+  display: flex;
+  justify-content: center;
+  gap: .8rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+body.page-id-10 .faq-cta .btn-row .btn,
+body.page-id-10 .faq-cta .btn-row .elementor-widget-button {
+  width: auto !important;
+}
+
+@media (max-width: 480px) {
+  body.page-id-10 .faq-cta .btn-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* Contact page: strict alignment/margins, Elementor-editable */
+body.page-id-11 .page-hero-inner,
+body.page-id-11 .contact-sec .wrap.e-con {
+  width: 100% !important;
+  max-width: var(--max-w) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+body.page-id-11 .page-hero-lead {
+  max-width: 760px;
+}
+
+body.page-id-11 .contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+body.page-id-11 .ci-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  margin-top: .5rem;
+}
+
+body.page-id-11 .ci-item,
+body.page-id-11 .ci-note,
+body.page-id-11 .form-check {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
+}
+
+body.page-id-11 .ci-item {
+  gap: 1rem !important;
+}
+
+body.page-id-11 .ci-icon {
+  width: 42px !important;
+  height: 42px !important;
+  flex: 0 0 42px !important;
+  border-radius: 12px;
+}
+
+body.page-id-11 .ci-note {
+  gap: 10px !important;
+}
+
+body.page-id-11 .form-card {
+  border-radius: 22px;
+  padding: 2.4rem;
+}
+
+body.page-id-11 .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+body.page-id-11 .fg {
+  margin-bottom: 1.1rem;
+}
+
+body.page-id-11 .fg .elementor-widget-html,
+body.page-id-11 .fg .elementor-widget-container,
+body.page-id-11 .fg input,
+body.page-id-11 .fg select,
+body.page-id-11 .fg textarea {
+  width: 100%;
+}
+
+body.page-id-11 .btn-submit.elementor-widget-html,
+body.page-id-11 .btn-submit .elementor-widget-container,
+body.page-id-11 button.btn-submit {
+  width: 100%;
+}
+
+body.page-id-11 button.btn-submit {
+  min-height: 52px;
+}
+
+body.page-id-11 .success {
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  body.page-id-11 .contact-grid,
+  body.page-id-11 .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  body.page-id-11 .form-card {
+    padding: 1.6rem;
+  }
+}

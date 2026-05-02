@@ -1,0 +1,38 @@
+# Local and sensitive WordPress configuration
+wordpress/wp-config.php
+wordpress/wp-config.*.php
+wordpress/wp-content/db.php
+wordpress/wp-content/db.php.sqlite-backup
+wordpress/wp-content/database/
+
+# Backups, migration exports and generated archives
+migration-backups/
+wordpress/wp-content/ai1wm-backups/
+wordpress/wp-content/backups-dup-pro/
+*.wpress
+*.sql
+*.sqlite
+*.zip
+
+# Temporary/reference capture files
+reference/
+wordpress/wp-content/origo-source/
+wordpress/*-current.html
+wordpress/tmp-*.png
+
+# Runtime/cache/generated WordPress folders
+wordpress/wp-content/cache/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/uploads/elementor/css/
+wordpress/wp-content/uploads/elementor/tmp/
+wordpress/wp-content/uploads/elementor/thumbs/
+
+# Do not commit paid/vendor-heavy plugins; install them on the target site when needed.
+wordpress/wp-content/plugins/duplicator-pro/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

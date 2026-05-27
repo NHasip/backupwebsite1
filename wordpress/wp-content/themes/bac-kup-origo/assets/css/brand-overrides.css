@@ -979,6 +979,7 @@ body.page-id-10 .faq-list {
   margin: 3rem auto 0;
   display: flex;
   flex-direction: column;
+  gap: 0;
 }
 
 body.page-id-10 .faq-item {
@@ -997,10 +998,16 @@ body.page-id-10 .faq-q .faq-q {
   align-items: center;
   gap: 1rem;
   text-align: left;
+  padding: 1.1rem 0;
+  line-height: 1.45;
 }
 
 body.page-id-10 .faq-a {
+  display: block;
+  margin-top: -0.1rem;
+  padding-right: 2.1rem;
   padding-bottom: 1.35rem;
+  line-height: 1.7;
 }
 
 body.page-id-10 .faq-cta .btn-row {
@@ -1014,6 +1021,74 @@ body.page-id-10 .faq-cta .btn-row {
 body.page-id-10 .faq-cta .btn-row .btn,
 body.page-id-10 .faq-cta .btn-row .elementor-widget-button {
   width: auto !important;
+}
+
+@media (max-width: 1024px) {
+  body.page-id-10 .page-hero-inner,
+  body.page-id-10 .faq-sec .wrap.e-con,
+  body.page-id-10 .faq-cta .wrap.e-con {
+    padding-left: 28px !important;
+    padding-right: 28px !important;
+  }
+
+  body.page-id-10 .faq-list {
+    max-width: 100%;
+    margin-top: 2.3rem;
+  }
+
+  body.page-id-10 .faq-q .faq-q {
+    font-size: 1.03rem;
+    gap: 0.9rem;
+  }
+}
+
+@media (max-width: 767px) {
+  body.page-id-10 .page-hero-inner,
+  body.page-id-10 .faq-sec .wrap.e-con,
+  body.page-id-10 .faq-cta .wrap.e-con {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  body.page-id-10 .page-hero-lead {
+    max-width: 100%;
+  }
+
+  body.page-id-10 .faq-list {
+    margin-top: 1.7rem;
+  }
+
+  body.page-id-10 .faq-q .faq-q {
+    align-items: flex-start;
+    padding: 0.95rem 0;
+    font-size: 0.98rem;
+    line-height: 1.5;
+    gap: 0.7rem;
+  }
+
+  body.page-id-10 .faq-q .faq-q .icon,
+  body.page-id-10 .faq-q .faq-q svg {
+    flex: 0 0 auto;
+    margin-top: 0.16rem;
+  }
+
+  body.page-id-10 .faq-a {
+    padding-right: 0;
+    padding-bottom: 1rem;
+    font-size: 0.96rem;
+    line-height: 1.65;
+  }
+
+  body.page-id-10 .faq-cta .btn-row .btn,
+  body.page-id-10 .faq-cta .btn-row .elementor-widget-button,
+  body.page-id-10 .faq-cta .btn-row .elementor-button-wrapper {
+    width: 100% !important;
+  }
+
+  body.page-id-10 .faq-cta .btn-row .elementor-button {
+    width: 100% !important;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 480px) {

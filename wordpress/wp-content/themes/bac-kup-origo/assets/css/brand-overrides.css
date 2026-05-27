@@ -1023,6 +1023,25 @@ body.page-id-10 .faq-cta .btn-row .elementor-widget-button {
   width: auto !important;
 }
 
+@media (min-width: 1025px) {
+  body.page-id-10 .page-hero-inner,
+  body.page-id-10 .faq-sec .wrap.e-con,
+  body.page-id-10 .faq-cta .wrap.e-con {
+    max-width: 1140px !important;
+    padding-left: 52px !important;
+    padding-right: 52px !important;
+  }
+
+  body.page-id-10 .page-hero-lead {
+    max-width: 700px;
+  }
+
+  body.page-id-10 .faq-list {
+    max-width: 760px;
+    margin-top: 2.6rem;
+  }
+}
+
 @media (max-width: 1024px) {
   body.page-id-10 .page-hero-inner,
   body.page-id-10 .faq-sec .wrap.e-con,
